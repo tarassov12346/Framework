@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Smoke" verbose="1" >
+    <test name="C:\workspace\Framework job\Framework\src\test\java\test\CorrectInputTests.java"   >
+        <classes>
+            <class name="test.CorrectInputTests">
+                <methods>
+                    <include name="isVmClassInputCorrect"/>
+                    <include name="isInstanceTypeInputCorrect"/>
+                    <include name="isLocationInputCorrect"/>
+                    <include name="isSSDInputCorrect"/>
+                    <include name="isUsageInputCorrect"/>
+                               </methods>
+                           </class>
+                       </classes>
+                   </test>
+               </suite>

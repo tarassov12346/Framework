@@ -1,0 +1,14 @@
+service\EmailHandling.class
+utils\TestListener.class
+service\VirtualMachineCreator.class
+service\VirtualMachineDesignShop.class
+utils\CustomConditions.class
+test\CommonConditions.class
+test\CorrectInputTests.class
+page\EmailPage.class
+service\VirtualMachineReader.class
+page\GoogleCloudPlatformPricingCalculatorPage.class
+driver\DriverSingleton.class
+page\AbstractPage.class
+test\WebDriverHardcoreTest.class
+model\VirtualMachine.class
