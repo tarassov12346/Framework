@@ -1,11 +1,6 @@
 package service;
 
-import org.openqa.selenium.TimeoutException;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import page.GoogleCloudPlatformPricingCalculatorPage;
-import utils.CustomConditions;
-
-import java.time.Duration;
 
 public class VirtualMachineDesignShop {
 
