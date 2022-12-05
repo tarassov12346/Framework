@@ -41,7 +41,8 @@ public class GoogleCloudPlatformPricingCalculatorPage extends AbstractPage {
     private WebElement buttonAddToEstimate;
     @FindBy(xpath = "//b[@class='ng-binding']")
     private WebElement costTextOnCalculator;
-    @FindBy(id = "email_quote")
+    //@FindBy(id = "email_quote")
+    @FindBy(id = "Email Estimate")
     private WebElement buttonEmailEstimate;
     @FindBy(xpath = "//input[@type='email']")
     private WebElement inputFieldEmail;
