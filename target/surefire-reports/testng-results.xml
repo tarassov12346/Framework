@@ -2,38 +2,38 @@
 <testng-results ignored="1" total="7" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-06T10:15:37 MSK" name="All tests" finished-at="2022-12-06T10:15:50 MSK" duration-ms="13370">
+  <suite started-at="2022-12-06T10:59:02 MSK" name="All tests" finished-at="2022-12-06T10:59:16 MSK" duration-ms="14643">
     <groups>
     </groups>
-    <test started-at="2022-12-06T10:15:37 MSK" name="All tests" finished-at="2022-12-06T10:15:50 MSK" duration-ms="13370">
+    <test started-at="2022-12-06T10:59:02 MSK" name="All tests" finished-at="2022-12-06T10:59:16 MSK" duration-ms="14643">
       <class name="test.WebDriverHardcoreTest">
-        <test-method signature="areTotalEstimatedMonthlyCostValuesOnCalculatorAndInEmailEqual()[pri:0, instance:test.WebDriverHardcoreTest@67d4c48d]" started-at="2022-12-06T10:15:38 MSK" name="areTotalEstimatedMonthlyCostValuesOnCalculatorAndInEmailEqual" description="compares VM Total Estimated Monthly Cost values on Calculator and in Email" finished-at="2022-12-06T10:15:48 MSK" duration-ms="10294" status="PASS">
+        <test-method signature="areTotalEstimatedMonthlyCostValuesOnCalculatorAndInEmailEqual()[pri:0, instance:test.WebDriverHardcoreTest@385d819]" started-at="2022-12-06T10:59:02 MSK" name="areTotalEstimatedMonthlyCostValuesOnCalculatorAndInEmailEqual" description="compares VM Total Estimated Monthly Cost values on Calculator and in Email" finished-at="2022-12-06T10:59:14 MSK" duration-ms="11541" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- areTotalEstimatedMonthlyCostValuesOnCalculatorAndInEmailEqual -->
       </class> <!-- test.WebDriverHardcoreTest -->
       <class name="test.CorrectInputTests">
-        <test-method signature="isVmClassInputCorrect()[pri:0, instance:test.CorrectInputTests@502a4156]" started-at="2022-12-06T10:15:37 MSK" name="isVmClassInputCorrect" description="compares VM Class on calculator form and the input one" finished-at="2022-12-06T10:15:37 MSK" duration-ms="305" status="PASS">
+        <test-method signature="isVmClassInputCorrect()[pri:0, instance:test.CorrectInputTests@31b82e0f]" started-at="2022-12-06T10:59:02 MSK" name="isVmClassInputCorrect" description="compares VM Class on calculator form and the input one" finished-at="2022-12-06T10:59:02 MSK" duration-ms="265" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isVmClassInputCorrect -->
-        <test-method signature="isInstanceTypeInputCorrect()[pri:0, instance:test.CorrectInputTests@502a4156]" started-at="2022-12-06T10:15:37 MSK" name="isInstanceTypeInputCorrect" description="compares Instance type on calculator form and the input one" finished-at="2022-12-06T10:15:37 MSK" duration-ms="98" status="PASS">
+        <test-method signature="isInstanceTypeInputCorrect()[pri:0, instance:test.CorrectInputTests@31b82e0f]" started-at="2022-12-06T10:59:02 MSK" name="isInstanceTypeInputCorrect" description="compares Instance type on calculator form and the input one" finished-at="2022-12-06T10:59:02 MSK" duration-ms="108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isInstanceTypeInputCorrect -->
-        <test-method signature="isLocationInputCorrect()[pri:0, instance:test.CorrectInputTests@502a4156]" started-at="2022-12-06T10:15:37 MSK" name="isLocationInputCorrect" description="compares Location on calculator form and the input one" finished-at="2022-12-06T10:15:37 MSK" duration-ms="48" status="PASS">
+        <test-method signature="isLocationInputCorrect()[pri:0, instance:test.CorrectInputTests@31b82e0f]" started-at="2022-12-06T10:59:02 MSK" name="isLocationInputCorrect" description="compares Location on calculator form and the input one" finished-at="2022-12-06T10:59:02 MSK" duration-ms="65" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isLocationInputCorrect -->
-        <test-method signature="isSSDInputCorrect()[pri:0, instance:test.CorrectInputTests@502a4156]" started-at="2022-12-06T10:15:37 MSK" name="isSSDInputCorrect" description="compares SSD on calculator form and the input one" finished-at="2022-12-06T10:15:38 MSK" duration-ms="42" status="PASS">
+        <test-method signature="isSSDInputCorrect()[pri:0, instance:test.CorrectInputTests@31b82e0f]" started-at="2022-12-06T10:59:02 MSK" name="isSSDInputCorrect" description="compares SSD on calculator form and the input one" finished-at="2022-12-06T10:59:02 MSK" duration-ms="77" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isSSDInputCorrect -->
-        <test-method signature="isUsageInputCorrect()[pri:0, instance:test.CorrectInputTests@502a4156]" started-at="2022-12-06T10:15:38 MSK" name="isUsageInputCorrect" description="compares usage on calculator form and the input one" finished-at="2022-12-06T10:15:38 MSK" duration-ms="27" status="PASS">
+        <test-method signature="isUsageInputCorrect()[pri:0, instance:test.CorrectInputTests@31b82e0f]" started-at="2022-12-06T10:59:02 MSK" name="isUsageInputCorrect" description="compares usage on calculator form and the input one" finished-at="2022-12-06T10:59:02 MSK" duration-ms="47" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isUsageInputCorrect -->
-        <test-method is-config="true" signature="afterTestCompleted()[pri:0, instance:test.CorrectInputTests@502a4156]" started-at="2022-12-06T10:15:48 MSK" name="afterTestCompleted" description="closes the browser" finished-at="2022-12-06T10:15:50 MSK" duration-ms="2463" status="PASS">
+        <test-method is-config="true" signature="afterTestCompleted()[pri:0, instance:test.CorrectInputTests@31b82e0f]" started-at="2022-12-06T10:59:14 MSK" name="afterTestCompleted" description="closes the browser" finished-at="2022-12-06T10:59:16 MSK" duration-ms="2431" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTestCompleted -->

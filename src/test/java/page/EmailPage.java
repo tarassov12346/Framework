@@ -5,8 +5,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.CustomConditions;
+
 import java.time.Duration;
 import java.util.ArrayList;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -61,11 +63,13 @@ public class EmailPage extends AbstractPage {
         while (mail.getText().equals("0 mail")) {
             refreshEmailWindowButton.click();
         }
+        for (int i = 0; i < 3; i++) {
+            refreshEmailWindowButton.click();
+        }
         return this;
     }
 
     public String getCostInEmail() {
-        refreshEmailWindowButton.click();
         driver.switchTo().frame(driver.findElement(By.xpath("//*[@id='ifmail']")));
         new WebDriverWait(driver, Duration.ofSeconds(20)).until(ExpectedConditions.visibilityOf(costValueFromEmailField));
         String costInEmail = getCostFromText(costValueFromEmailField.getText());
