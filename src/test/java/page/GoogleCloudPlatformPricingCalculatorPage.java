@@ -224,7 +224,8 @@ public class GoogleCloudPlatformPricingCalculatorPage extends AbstractPage {
         scrollUpTheBox(EMAIL_OPTION_BOX_NAME_SELECT, "emailQuote.user.firstname");
         waitForElementVisibility(inputFieldEmail, TIME_OUT);
         inputFieldEmail.sendKeys(generatedEmailName);
-        buttonSendEmail.click();
+       // buttonSendEmail.click();
+        elementClick(buttonSendEmail);
         return this;
     }
 

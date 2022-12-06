@@ -65,6 +65,7 @@ public class EmailPage extends AbstractPage {
     }
 
     public String getCostInEmail() {
+        refreshEmailWindowButton.click();
         driver.switchTo().frame(driver.findElement(By.xpath("//*[@id='ifmail']")));
         new WebDriverWait(driver, Duration.ofSeconds(20)).until(ExpectedConditions.visibilityOf(costValueFromEmailField));
         String costInEmail = getCostFromText(costValueFromEmailField.getText());
